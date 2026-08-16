@@ -1,0 +1,21 @@
+name: Cayden's NRP Chatbot
+tagline: It's ChatGBT for the NRP
+
+kind: solo
+year: 2026
+
+authors:
+  - name: Cayden Chung
+    github: drcayden
+    role: A fully featured chatbot that helps you learn more about the resources the NRP provides
+    learned: >
+      How to use Kuberneties, LLMs, and more
+      How to manage time, especially during the last week where time management became very important
+
+tech: [Streamlit, ChromaDB, NRP LLM (gpt-oss), Kubernetes, Python]
+
+highlights:
+  - This chatbot can remember your chats, so you can revisit them at any time
+  - To avoid misuse, this chatbot will end a coversation if it violates the NRP Acceptable Usage Policy
+
+screenshot: screenshot.png
